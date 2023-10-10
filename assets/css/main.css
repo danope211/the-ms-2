@@ -18,30 +18,7 @@ body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
- .back-video{
-	 position: absolute;
-	 right: 0;
-	bottom: 0;
-	 z-index: -1;
-	
- }
-@media (min-aspect-ratio: 16/9) {
-	.back-video{
-		width: 100%;
-		height: auto;
-	}
-}
-
-@media (min-aspect-ratio: 16/9) {
-	.back-video{
-		width: auto;
-		height: 100%;
-	}
-}
-
-
-
-
+ 
 /* Style the gallery container */
 .gallery {
     display: flex;
